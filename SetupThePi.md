@@ -40,5 +40,5 @@ cmd# ssh pi@<IP-ADDRESS>
 ```
 # Update the System first
 ```
-cmd# apt update --fix-missing
+cmd# apt update && upgrade --fix-missing
 ```
