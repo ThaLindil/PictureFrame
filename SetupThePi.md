@@ -1,11 +1,12 @@
-# Setup the Raspberry Pi headless
+# Befor first booting
+Flash the SD card with Operating system you need. After flashing the SD you can mount the SD Card on you Laptop or Desktop and could configured befor the first run.
+
 ## Setup WIFI
-After flashing the SD-Card go to the boot folder and add a new file 
-wpa_supplicant.conf Content sould be 
+Create a file in the boot folder, named wpa_supplicant.conf open the file
 ```
 cmd# nano wpa_supplicant.conf
 ```
-Add the following part at that file. 
+add the following part at that file. 
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
@@ -16,7 +17,7 @@ network={
  psk="<Password for your wireless LAN>"
 }
 ```
-If you use Linux you could generate the network block simply with 
+if you use Linux you could generate the network block simply with 
 ```
 cmd# wpa_passphrase "SSID"
 ```
@@ -25,7 +26,8 @@ To run ssh on the pi just touch a file in the boot folder
 ```
 cmd# touch ssh
 ```
-## Password less SSH to your screen
+
+## Password less SSH
 ### Generate a new Key
 ```
 cmd# ssh-keygen
@@ -38,7 +40,12 @@ cmd# ssh-copy-id pi@<IP-ADDRESS>
 ```
 cmd# ssh pi@<IP-ADDRESS>
 ```
-# Update the System first
+## Update the System first
 ```
-cmd# apt update && upgrade --fix-missing
+cmd# sudo apt update && upgrade --fix-missing
 ```
+## Disable Display-Lock
+```
+cmd# sudo raspi-config
+```
+Got to **2 Display Options** -> **D4 Screen Blanking**
