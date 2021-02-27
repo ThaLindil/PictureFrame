@@ -49,3 +49,15 @@ cmd# sudo apt update && upgrade --fix-missing
 cmd# sudo raspi-config
 ```
 Got to **2 Display Options** -> **D4 Screen Blanking**
+
+## Setup VNC
+To be able so setup the GUI you will need a VNC client. 
+```
+cmd# sudo apt install realvnc-vnc-server
+```
+Next step enable VNC
+```
+cmd# sudo raspi-config
+``` 
+Got to **3 Interface Options** -> **P3 VNC**
+
