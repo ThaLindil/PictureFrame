@@ -6,11 +6,15 @@ scp StartTheFrame.sh pi@<IP>:/tmp
 scp ClearTheFrame.sh pi@<IP>:/tmp
 scp GetImages.py pi@<IP>:/tmp
 ```
+```
 ssh pi@<IP>
+  
 ```
 Create the main folder
 ```
+
 sudo mkdir /mnt/images
+
 ```
 Move the files there 
   
