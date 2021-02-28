@@ -52,7 +52,7 @@ You should see something like
 
                "all_members_are_administrators":true
 ```
-Here you can see the Chat_ID **-410xxxxxx** you need the ID withou the minus infront.    
+Here you can see the Chat_ID **-410xxxxxx** you need, it is the Number withou the minus infront.    
  Repeat that step if you add the bot to other chats or groups. Don't forget to start the bot in the chat.
  ```
  \start
