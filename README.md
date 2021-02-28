@@ -8,4 +8,4 @@ Itemlist
 # Index
 * [Setup the Raspberry Pi Zero](https://github.com/ThaLindil/PictureFrame/blob/main/SetupThePi.md)
 * [Setup the Telegram Bot](https://github.com/ThaLindil/PictureFrame/blob/main/TelegramBot.md)
-* [Finish the Projekt](https://github.com/ThaLindil/PictureFrame/blob/main/PutAllTogether)
+* [Finish the Projekt](https://github.com/ThaLindil/PictureFrame/blob/main/FinishTheProjekt.md )
