@@ -15,7 +15,7 @@ You should see something like
 
       {
 
-         "update_id":497851783,
+         "update_id":497xxxxx,
 
          "message":{
 
@@ -23,13 +23,13 @@ You should see something like
 
             "from":{
 
-               "id":119749807,
+               "id":1197xxxxxx,
 
                "is_bot":false,
 
-               "first_name":"York",
+               "first_name":"NAME",
 
-               "last_name":"Keyser",
+               "last_name":"NAME",
 
                "language_code":"de"
 
@@ -37,7 +37,7 @@ You should see something like
 
             "chat":{
 
-               "id":-410632878,
+               "id":-410xxxxxx,
 
                "title":"Home",
 
